@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    width: 100%;
+    padding: 25px 4rem;
+    overflow: auto;
+    
+}
+#header .left{
+    float: left;
+    overflow:auto;
+    padding: 7px 0 ;
+}
+#header .left a{
+    color: #212832;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#header .right{
+    float: right;
+}
+#header .right a{
+    color: #0000008c;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: .5s;
+}
+#header .right a:hover{
+    color: black;
+}
+#header .right button{
+    background-color: #00ba94;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 14px 18px;
+    color: white;
+    border: #00ba94;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+#header .right button:hover{
+    background-color: #049275;
+    cursor: pointer;
+}
+#yemek{
+    background-image: url(https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500);
+    padding: 180px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%);
+}
+#yemek h1{
+    color: aliceblue;
+}
+#yemek p{
+    color: #0000008c;
+    margin-bottom: 40px;
+}
+#yemek .bottom input{
+    width: 70%;
+    padding: 20px 10px;
+    border-radius: 7px;
+    outline: none;
+    margin-right: 15px;
+}
+#yemek .bottom button{
+    background-color: #00ba94;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 20px 30px;
+    color: white;
+    border: #00ba94;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+#yemek .bottom button:hover{
+    background-color: #049275;
+    cursor: pointer;
+}
+#job{
+    text-align: center;
+    padding: 6rem 4rem;
+    overflow: auto;
+}
+#job .top h5{
+    color: #0061F2;
+    margin-bottom: 10px;
+}
+#job .top p{
+    padding-bottom: 50px;
+}
+#job .bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#job .bottom .box{
+    border: 1px solid #ffffff;
+    background-color:rgb(242, 242, 242) ;
+    border-radius: 7px;
+    width: 22%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    filter: blur(2px);
+    transition: 0.5s;
+}
+#job .bottom .box:hover{
+    filter: blur(0);
+}
+#job .bottom .box p{
+    padding-bottom: 5px;
+}
+#job .box img{
+    width: 100%;
+    padding: 0 0 7px 7px;
+}
+#comment{
+    padding: 1.5rem;
+    background-color: #e8e7e7;
+    overflow: auto;
+    margin:0 40px 50px;
+}
+#comment .left{
+    float: left;
+    text-align: left;
+}
+#comment .left h4{
+    margin-bottom: 10px;
+}
+#comment .right{
+    float: right;
+}
+#comment .right input{
+    padding: 10px 90px;
+    outline: none;
+}
+#comment .right button{
+    padding: 10px 30px;
+    color: white;
+    background-color: #0061F2;
+    border: 1px solid #0061F2;
+    border-radius: 0 7px 7px 0;
+}
